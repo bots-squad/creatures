@@ -6,7 +6,6 @@ class TemperatureSensor extends Thing {
   constructor({id, minTemperature, maxTemperature, delay}) {
     super({id, delay});
     this.temperature = new TemperatureComponent({minTemperature, maxTemperature})
-
   }
   generateData() {
     let now = new Date();
