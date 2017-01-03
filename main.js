@@ -27,14 +27,14 @@ let authorized = (req, res, next) => {
 }
 
 // Generate n temperature sensors
-let temperatureSensors = [...Array(5).keys()].map(item => {
+let temperatureSensors = [...Array(100).keys()].map(item => {
   let t = new TemperatureSensor({id:`t${item}`, minTemperature:-10, maxTemperature:10, delay:randomDelay()});
   t.start("generateData");
   return  t;
 });
 
 // Generate n humidity sensors
-let humiditySensors = [...Array(5).keys()].map(item => {
+let humiditySensors = [...Array(100).keys()].map(item => {
   let h = new HumiditySensor({id:`h${item}`, delay:randomDelay()});
   h.start("generateData");
   return  h;
