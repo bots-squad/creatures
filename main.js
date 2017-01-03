@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const TemperatureSensor = require('./things/TemperatureSensor').TemperatureSensor;
 const HumiditySensor = require('./things/HumiditySensor').HumiditySensor;
 
-let http_port = process.env.HTTP_PORT || 8888;
+let http_port = process.env.PORT || 8888;
 let app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
