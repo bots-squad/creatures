@@ -1,0 +1,24 @@
+{
+  "name": "creatures",
+  "version": "1.0.0",
+  "description": "Things simulator",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bots-squad/creatures.git"
+  },
+  "author": "@k33g_org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bots-squad/creatures/issues"
+  },
+  "homepage": "https://github.com/bots-squad/creatures#readme"
+}
