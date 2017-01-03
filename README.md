@@ -4,7 +4,7 @@ This is a "Things" simulator (think IOT)
 
 ## See it in action
 
-Hosted on https://www.clever-cloud.com/
+Proudly hosted on https://www.clever-cloud.com/
 
 - all sensors: http://creatures.cleverapps.io/sensors
 - all temperature sensors: http://creatures.cleverapps.io/sensors/temperature
